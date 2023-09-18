@@ -271,7 +271,6 @@ body {
   }
 
   #menu, input[type="checkbox"] {
-    display: none;
     z-index: 0;
   }
 
