@@ -187,7 +187,6 @@ body {
     position: fixed;
     top: 41px;
     right: 25px; 
-    /* animation: color_burger 25s infinite;  */
     background: #fff;
     width: 30px;
     height: 1px; 
@@ -195,33 +194,6 @@ body {
     cursor: pointer;
     z-index: 5;
   }
-
-  /* @keyframes color_burger {
-    0% {
-      background: #fff;
-    }
-    15% {
-      background: #000;
-    }
-    30% {
-      background: #fff;
-    }
-    45% {
-      background: #fff;
-    }
-    60% {
-      background: #000;
-    }
-    75% {
-      background: #fff;
-    }
-    90% {
-      background: #000;
-    }
-    100% {
-      background: #fff;
-    }
-  } */
 
   @media screen and (min-width: 1150px){
     #trigger,
@@ -253,7 +225,7 @@ body {
   #menu-toggle:checked + #trigger + #burger {
     top: 42px;
     transform: rotate(360deg);
-    /* transition: transform .2s ease; */
+    transition: transform .2s ease;
   }
   
   #menu-toggle:checked + #trigger + #burger:before {
@@ -261,7 +233,7 @@ body {
     top: -2px;
     left: 19px;
     transform: rotate(45deg) translateX(-5px); 
-    /* transition: transform .2s ease; */
+    transition: transform .2s ease;
   }
   
   #menu-toggle:checked + #trigger + #burger:after {
@@ -269,7 +241,7 @@ body {
     top: 2px;
     left: 19px;
     transform: rotate(-45deg) translateX(-5px); 
-    /* transition: transform .2s ease; */
+    transition: transform .2s ease;
  }
   
   #menu {
@@ -282,8 +254,6 @@ body {
     transition: .2s;
     padding-top: 90px;
     opacity: 0.7;
-    z-index: 0;
-    display: none;
   }
   
   #menu-toggle:checked + #trigger + #burger + #menu {
