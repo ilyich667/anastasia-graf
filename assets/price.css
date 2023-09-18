@@ -313,6 +313,14 @@ body {
       box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   }
   
+.card_span {
+  position: absolute;
+  color: #fff;
+  left: 45%;
+  bottom: 3%;
+  opacity: 0.5;
+}
+
   .poster {
       position: relative;
       top: 0;
@@ -321,7 +329,7 @@ body {
       height: 100%;
       overflow: hidden;
   }
-  
+/*   
   .poster::before {
       content: '';
       position: absolute;
@@ -331,7 +339,7 @@ body {
       height: 100%;
       z-index: 1;
       transition: .3s;
-  }
+  } */
   
   .card:hover .poster::before {
       bottom: 0;

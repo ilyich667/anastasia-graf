@@ -153,10 +153,10 @@ header {
   }
   
  .header_block-span:before {
-    left: 1px;
+    left: -2.5px;
   }
   .header_block-span:after {
-    right: 1.5px;
+    right: 2.5px;
     background: #fff;
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
   }
