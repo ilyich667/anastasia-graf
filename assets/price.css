@@ -423,6 +423,7 @@ body {
       border-radius: 50%;
       overflow: hidden;
       border: 1.5px solid #fff;
+      transition: all 0.3s ease;
   }
   
   .details .cast ul li img {
